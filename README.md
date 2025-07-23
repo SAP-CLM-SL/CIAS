@@ -8,7 +8,7 @@ This session introduces participants to the Cloud Integration Automation Service
 
 SAP Build is a comprehensive solution for business application development and automation. Designed for both low-code and pro-code users, SAP Build combines generative AI with prebuilt components to accelerate development and streamline collaboration across teams. Create cloud-ready extensions that enhance your cloud ERP and SAP and non-SAP application landscape while breaking down silos between business and IT.
 
-![overview](/exercises/ex0/images/overview.png)
+![overview](images/overview.png)
 
 **<ins>Configuration of the scenario with Cloud Integration Automation Service</ins>**
 
