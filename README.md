@@ -59,21 +59,13 @@ Run the following steps to complete the exercise
 - [Exercise 2 - Generation of the workflow](ex2/README.md)
 - [Exercise 3 - Configuration Setup](ex3/README.md)
 
-Once you complete the above exercise, you can import the project data from the **S/4HANA Cloud** system to the **SAP SAP Cloud for projects** application on BTP.
-
-![Complete](/exercises/ex0/images/projects.gif)
-
-
-It would be helpful if you could provide your feedback here : [Feedback](https://url.sap/bo4esn). Alternatively, you can also scan the following QR code to provide feedback: 
-
-![qr code](/exercises/ex0/images/qr_code.png)
+Once you complete the above exercises, you will be able to provision and configure services on BTP using Cloud Integration Automation Service and would be able create a fiori lanunchpad site in SAP Build Workzone .
 
 
 ## Resources
 1. [Cloud Integration Automation Service Discovery center](https://discovery-center.cloud.sap/serviceCatalog/cloud-integration-automation?region=all&service_plan=standard&commercialModel=cloud)
 2. [SAP Help Portal](https://help.sap.com/docs/cloud-integration-automation/user-guide/overview?locale=en-US)
 3. [Blogs](https://blogs.sap.com/2018/05/28/cloud-integration-automation-service-what-is-it/)
-6. [SAP S/4HANA Cloud](https://my407161.s4hana.cloud.sap/ui) tenant used during the hands-on session.
 7. [SAP BTP Global Account](https://emea.cockpit.btp.cloud.sap/cockpit?idp=tdct3ched2.accounts.ondemand.com#/globalaccount/afd3e49e-9bd3-41b8-ba49-ea7679f9e677/subaccount/576991fa-34c8-48a9-a661-6c278d2ed1db/subaccountoverview%20) tenant used during the hands-on session.
 8. [CLoud Integration Tenant](https://in266-gkd289xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/) tenant used during the hands-on session.
 
