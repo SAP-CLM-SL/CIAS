@@ -55,9 +55,9 @@ You can log in to the above application/tenants with credentials assigned to you
 
 Run the following steps to complete the exercise
 
-- [Exercise 1 - Overview of Cloud Integration Automation Service](exercises/ex0/README.md)
-- [Exercise 2 - Generation of the workflow](exercises/ex2/README.md)
-- [Exercise 3 - Configuration Setup](exercises/ex3/README.md)
+- [Exercise 1 - Overview of Cloud Integration Automation Service](ex1/README.md)
+- [Exercise 2 - Generation of the workflow](ex2/README.md)
+- [Exercise 3 - Configuration Setup](ex3/README.md)
 
 Once you complete the above exercise, you can import the project data from the **S/4HANA Cloud** system to the **SAP SAP Cloud for projects** application on BTP.
 
