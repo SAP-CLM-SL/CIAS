@@ -73,15 +73,10 @@ It would be helpful if you could provide your feedback here : [Feedback](https:/
 1. [Cloud Integration Automation Service Discovery center](https://discovery-center.cloud.sap/serviceCatalog/cloud-integration-automation?region=all&service_plan=standard&commercialModel=cloud)
 2. [SAP Help Portal](https://help.sap.com/docs/cloud-integration-automation/user-guide/overview?locale=en-US)
 3. [Blogs](https://blogs.sap.com/2018/05/28/cloud-integration-automation-service-what-is-it/)
-4. [Setting up 6JN scenario](https://support.sap.com/content/dam/SAAP/Sol_Pack/S4C/Library/Setup/6JN_Set-Up_EN_XX.pdf)
-5. [Cloud Integration Automation Service](https://cias-teched-b7x9jgv5.cias-preprod.cfapps.eu10.hana.ondemand.com) tenant used to setup the integration setup.
 6. [SAP S/4HANA Cloud](https://my407161.s4hana.cloud.sap/ui) tenant used during the hands-on session.
 7. [SAP BTP Global Account](https://emea.cockpit.btp.cloud.sap/cockpit?idp=tdct3ched2.accounts.ondemand.com#/globalaccount/afd3e49e-9bd3-41b8-ba49-ea7679f9e677/subaccount/576991fa-34c8-48a9-a661-6c278d2ed1db/subaccountoverview%20) tenant used during the hands-on session.
 8. [CLoud Integration Tenant](https://in266-gkd289xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/) tenant used during the hands-on session.
 
-
-## Contributing
-Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
 
 ## Code of Conduct
 Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples/.github/blob/main/CODE_OF_CONDUCT.md).
