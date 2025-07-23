@@ -13,13 +13,13 @@ This section contains the integration scenarios that are onboarded into CIAS. Yo
 
 **Note: In the next exercise, we will take a deeper look into the functions of the Planning app.**
 
-![plan](images/plan_overview_1.png)
+![plan](../images/plan_overiew_1.png)
 
 ### 2. My Inbox
 
 The Inbox feature in Cloud Integration Automation Service supports workflow execution by automatically delegating tasks based on user authorization and scope. Its integrated parameter management system minimizes errors and ensures seamless integration by pre-populating task parameters from preceding tasks. Furthermore, its automation capabilities, eliminate manual operations, thereby boosting efficiency and reducing potential human errors.
 
-![inbox](images/plan_overview_2.png)
+![inbox](../images/plan_overiew_2.png)
 
 The following are the different sections within the Inbox -
 1. **Task Instructions** - This tab displays the documentation for the current task. It also contains parameters and the ability to execute automation.
@@ -30,7 +30,7 @@ The following are the different sections within the Inbox -
 6. **Support information** - This tab contains metadata information about the workflow.
 7. **Logs** - In the case of automation tasks, after triggering the automation, the logs can be seen in the logs tab. Individual automation logs can be visualized from the log button next to individual parameter sections. For aggregate logs, please click the logs button at the top right of the screen.
 
-![task overview](images/plan_overview_3.png)
+![task overview](../images/plan_overiew_3.png)
 
 #### <ins>Task Execution in Inbox</ins>
 
@@ -42,20 +42,20 @@ Automation tasks are those that perform the configuration automatically based on
 
 **For the hands-on session, in case of an error, please reach out to colleagues for support.**
 
-![Automation task](images/plan_overview_4.png)
+![Automation task](../images/plan_overiew_4.png)
 
 #### 2. Manual task
 
 Manual tasks are those that require manual setup of the configuration steps. The easiest way to identify an automation task is to look for the absence of the **Execute Task** button at the footer of the inbox. The manual tasks may or may not contain a **parameter** (1) section. To successfully complete a manual task, please perform the configuration steps manually. There will be **deep links** (2) embedded in the documentation itself. You can click on the link and follow the documentation to complete the steps. In case of mandatory parameters that are not pre-filled, kindly fill the same after completing the configuration manually. After completion of the configuration, click on the **Task Completed** (3) button to proceed to the next task.
 
-![Manual task](images/plan_overview_5.png)
+![Manual task](../images/plan_overiew_5.png)
 
 
 ### 3. Scenario Monitoring
 
 Scenario monitoring provides a comprehensive view of the current integration processes being executed within this tenant. It systematically catalogs each integration scenario, detailing the tasks undertaken and the progress achieved for each. This feature, part of CIAS (Cloud Integration Automation Service), is crucial for maintaining visibility and control over integration operations.
 
-![seo](images/plan_overview_6.png)
+![seo](../images/plan_overiew_6.png)
 
 Let us now proceed to the next exercise, where we will generate the workflow.
 
