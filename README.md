@@ -49,7 +49,7 @@ You can log in to the above application/tenants with credentials assigned to you
 
 **NOTE:** While logging in to any of the above systems/tenants (**OPTIONAL**), select the **clm-day-01.accounts.ondemand.com** IDP (if prompted).
 
-![Teched IDP](/exercises/ex0/images/idp1.png)
+![Teched IDP](images/idp_login.png)
 
 ## Exercises
 
