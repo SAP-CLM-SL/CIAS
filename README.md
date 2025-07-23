@@ -22,7 +22,7 @@ In this hands-on session, you will provision the following services on SAP Busin
 - SAP Task Center
 - SAP Business Application Studio
 
-![cias_overview](/exercises/ex1/images/6jnoverview_cias.png)
+![cias_overview](images/overview2.png)
 
 ## Required Systems & Services
 
@@ -38,13 +38,13 @@ You can log in to the above application/tenants with credentials assigned to you
 1. __Username:__ Use the following email ID (`XX will be assigned to you during the hands-on exercise`)
 
     ```
-    userxx@sapclm.org
+    userXX@sapclm.org
     ```
 
 4. __Password:__ Use the following password
 
     ```
-    Initialxx
+    The password will be provided to you during the hands-on session
     ```
 
 **NOTE:** While logging in to any of the above systems/tenants (**OPTIONAL**), select the **clm-day-01.accounts.ondemand.com** IDP (if prompted).
