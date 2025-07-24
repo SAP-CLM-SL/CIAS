@@ -2,7 +2,7 @@
 
 # Overview
 
-This session introduces participants to the **Cloud Integration Automation Service**, where you will gain hands-on experience implementing an automated scenario Provisioning SAP Build on SAP BTP. After completing the setup, you can create and design an SAP Fiori Launchpad site using SAP Build Work Zone, standard edition.
+This session introduces participants to the **Cloud Integration Automation Service**, where you will gain hands-on experience implementing an automated scenario Provisioning **SAP Build on SAP BTP**. After completing the setup, you can create and design a SAP Fiori Launchpad site using SAP Build Work Zone, standard edition.
 
 **<ins>Scenario Description</ins>**
 
