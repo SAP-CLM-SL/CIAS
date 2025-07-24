@@ -70,10 +70,15 @@ Select the Plan for Integration tile in the Home screen of the CIAS application
 
 <span style="color:red">**Note**</span> - replace **XX** in above parameter values with your user number 
 
+![Generate](../images/plan_handson_11.png)
+
+13. In this screen, press **Confirm** button to generate a workflow.
+    
+![Generate](../images/plan_handson_13.png)
 
 ## Result
 
-You've now _successfully_ **generated the workflow**. Now click on the link to navigate to Inbox.
+You’ve now _successfully_ **generated the workflow**. Now click on the link to navigate to **Scenario Monitoring application**.
 
 ![workflow summary](/exercises/ex2/images/GenerateSummary.png)
 
