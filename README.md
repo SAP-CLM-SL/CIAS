@@ -27,9 +27,8 @@ In this hands-on session, you will provision the following services on SAP Busin
 ## Required Systems & Services
 
 - [x] __Cloud Integration Automation Service__: BTP Service used to set up the technical configuration of the integration scenario involving the below systems.
-- [x] __SAP S/4HANA Cloud__
 - [x] __SAP BTP Global Account__
-- [x] __Cloud Integration Tenant__
+- [x] __Cloud Identity Authentication Service__
 
 ## Access Information
 
