@@ -23,9 +23,37 @@ Select the Plan for Integration tile in the Home screen of the CIAS application
   ![scenario selection](../images/monitoring_handson_4.png)
 
 
-5.	In the **Scenario Monitoring** application, the following tasks will be executing sequentially. You can see the status in the Tasks table. Wait for the below listed tasks to be executed successfully. 
-   
-  ![system selection](../images/monitoring_handson_5.png)
+5.	In the **Scenario Monitoring** application, the following tasks will be executing sequentially. You can see the status in the Tasks table. Wait for the below listed tasks to be executed successfully.
+
+   | Task ID      | Task Description                                              |
+   |-----------|---------------------------------------------------------------|
+   | A00005    | Create SAP BTP Subaccount                                     |
+   | A00006    | Enable Cloud Foundry Environment                              |
+   | A00007    | Create Space                                                  |
+   | A00008    | Establish Trust with IAS                                      |
+   | A00009    | Create Destination and XSUAA services                         |
+   | A00010    | Disable Default IDP                                           |
+   | A00011    | SAP Build Work Zone, standard edition Entitlement             |
+   | A00012    | Activate SAP Build Work Zone, standard edition                |
+   | A00013    | Assign Role Collection for SAP Build Work Zone, standard edition |
+   | A00014    | SAP Build Work Zone, advanced edition Entitlement             |
+   | A00015    | Activate SAP Build Work Zone, advanced edition                |
+   | A00016    | Assign Role Collection for SAP Build Work Zone, advanced edition |
+   | A00017    | Create Destination for SAP Build Work Zone Content            |
+   | A00018    | SAP Task Center Entitlement                                   |
+   | A00019    | Activate SAP Task Center                                      |
+   | A00020    | Assign Role Collection for SAP Task Center                    |
+   | A00021    | Create Destinations for SAP Task Center                       |
+   | A00022    | SAP Build Apps Entitlement                                    |
+   | A00023    | Activate SAP Build Apps                                       |
+   | A00024    | Assign Role Collection for Build Apps                         |
+   | A00025    | SAP Build Process Automation Entitlement                      |
+   | A00026    | Activate SAP Build Process Automation                         |
+   | A00027    | Assign Role Collection for SAP Build Process Automation       |
+   | A00028    | Create Destinations for SAP Business Process Automation       |
+   | A00029    | SAP Business Application Studio Entitlements                  |
+   | A00030    | Activate SAP Business Application Studio                      |
+   | A00031    | Assign Role Collection for SAP Business Application Studio    |
 
 
 6.	Click on the **SAP Business Technology Platform** system tile and search **CIAS EU Global Consumer**, and choose the tenant from the table.
