@@ -56,54 +56,17 @@ Select the Plan for Integration tile in the Home screen of the CIAS application
    | A00031    | Assign Role Collection for SAP Business Application Studio    |
 
 
-6.	Click on the **SAP Business Technology Platform** system tile and search **CIAS EU Global Consumer**, and choose the tenant from the table.
+6.	Once all the above listed tasks are in **Completed** status, the task **Create a Site** will be in **Yet to be executed** status. Since it is a manual task, you need to now navigate to My Inbox application by clicking  on the icon in the left side pane, to execute the task manually. 
 
 ![BTP](../images/monitoring_handson_5.png)
 
   
-7.	Click on the **SAP BTP Identity Authentication Service** system tile and search **clm-day-01**, and choose the tenant from the below table.
+7.	In **My Inbox** app, the task **Create a Site** will be available . You need to now follow the steps provided in the Task Instructions. Once all the steps are done manually, you can click on **Task Completed** button to receive the next task.
 
-![SCI](../images/monitoring_handson_6.png)
-
-
-8. Click the **Generate Workflow** button on the top right corner, and choose **Background Execution** option.
-
-![S4HC](../images/monitoring_handson_7.png)
-
-9.	Press the **Proceed** button in the popup. 
-
-![Generate](../images/monitoring_handson_8.png)
-
-10. In **Verify System Details** screen, the selected system details can be verified and then press **Next Step** button. 
-
-![Generate](../images/monitoring_handson_9.png)
-
-11. In the **Scope Selection** screen, the scope of the execution can be reviewed and then press **Next Step** button.
-
-![Generate](../images/monitoring_handson_10.png)
-
-12. In the **Add Task Parameters** screen provide the values only for the below parameters and keep rest of the parameter values as is-:
-
-**SAP Build Administrator** -: userXX@sapclm.org
-
-**Subaccount Region** -: Europe Frankfurt eu10
-
-**Subaccount Display Name** :  SAP CLM DAY USER XX 
-
-**Subaccount Subdomain Name** – sap-clm-day-user-xx
-
-
-<span style="color:red">**Note**</span> - replace **XX** in above parameter values with your user number 
-
-![Generate](../images/monitoring_handson_11.png)
-
-13. In this screen, press **Confirm** button to generate a workflow.
-    
-![Generate](../images/monitoring_handson_12.png)
 
 ## Result
 
-You’ve now _successfully_ **generated the workflow**. Now click on the link to navigate to **Scenario Monitoring application**.
+After you have completed all the tasks, You’ve now _successfully_ **Created a Firoi Lanuchpad Site** in **SAP Build Work Zone**.
 
 ![Generate](../images/monitoring_handson_13.png)
 
