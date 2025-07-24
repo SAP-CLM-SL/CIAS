@@ -1,15 +1,22 @@
 # Exercise 2 - Generation of Workflow
 In this exercise, you will __generate a workflow__ for the Integration scenario - __SAP Build Setup (CLM Day 2025)__.
 
+## Access the Cloud Integration Automation Service
+
+* Click on the [BTP Global Account](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=clm-day-01.accounts.ondemand.com#/globalaccount/9d88d4f5-c80a-4986-8a56-dbf4b7b5a223)
+* Click on the Subaccount
+  ![subaccount](../images/subaccount.png)
+* Click on **Services > Instances and Subscriptions**
+* Click on the icon against Cloud Integration Automation service to launch the application
+* ![cias](../images/cias.png)
+
+
 ## Plan for Integration
 
 Select the Plan for Integration tile in the Home screen of the CIAS application
 
-1. Log in to __Cloud Integration Automation Service__ with your credentials.
-   
-   To log in to the service copy the link below and put it in the browser.
-   
-   __https://cias-clm-XX.cias-preprod.cfapps.eu10.hana.ondemand.com__ ( replace __XX__ with your user number )
+1. You have lauched the application for Cloud Integration Automation Service
+
 
 2. Select the __Plan for Integration__ tile in the home screen of the Cloud Integration Automation Service application.
    
