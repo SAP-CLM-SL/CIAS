@@ -74,13 +74,13 @@ Select the Plan for Integration tile in the Home screen of the CIAS application
 
 13. In this screen, press **Confirm** button to generate a workflow.
     
-![Generate](../images/plan_handson_13.png)
+![Generate](../images/plan_handson_12.png)
 
 ## Result
 
 You’ve now _successfully_ **generated the workflow**. Now click on the link to navigate to **Scenario Monitoring application**.
 
-![workflow summary](/exercises/ex2/images/GenerateSummary.png)
+![Generate](../images/plan_handson_13.png)
 
 
 
