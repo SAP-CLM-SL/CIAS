@@ -87,4 +87,4 @@ You’ve now _successfully_ **generated the workflow**. Now click on the link to
 
 In the next exercise, we will execute the workflow and complete the integration setup.
 
-**Continue to - [Exercise 3 - Configuration Setup](../ex3/README.md)**
+**Continue to - [Exercise 3 - Monitoring Configuration Setup](../ex3/README.md)**
