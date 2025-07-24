@@ -57,7 +57,7 @@ Run the following steps to complete the exercise
 
 - [Exercise 1 - Overview of Cloud Integration Automation Service](ex1/README.md)
 - [Exercise 2 - Generation of the workflow](ex2/README.md)
-- [Exercise 3 - Configuration Setup](ex3/README.md)
+- [Exercise 3 - Monitoring Configuration Setup](ex3/README.md)
 
 Once you complete the above exercises, you will be able to provision and configure services on BTP using Cloud Integration Automation Service and would be able create a fiori lanunchpad site in SAP Build Workzone .
 
