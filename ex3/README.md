@@ -65,10 +65,6 @@ Select the Plan for Integration tile in the Home screen of the CIAS application
 
 
 ## Result
-
 After you have completed all the tasks, You’ve now _successfully_ **Created a Firoi Lanuchpad Site** in **SAP Build Work Zone**.
 
-## Feedback
-
-Kindly provide the feedback to this hands-on exercise.
-
+**Continue to - [Home Page](../README.md)**

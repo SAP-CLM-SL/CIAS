@@ -58,22 +58,19 @@ Run the following steps to complete the exercise
 - [Exercise 2 - Generation of the workflow](ex2/README.md)
 - [Exercise 3 - Monitoring Configuration Setup](ex3/README.md)
 
-Once you complete the above exercises, you will be able to provision and configure services on BTP using Cloud Integration Automation Service and would be able create a fiori lanunchpad site in SAP Build Workzone .
+Once you complete the above exercises, you will be able to provision and configure services on BTP using Cloud Integration Automation Service and would be able create a fiori launchpad site in SAP Build Workzone
 
 
 ## Resources
 1. [Cloud Integration Automation Service Discovery center](https://discovery-center.cloud.sap/serviceCatalog/cloud-integration-automation?region=all&service_plan=standard&commercialModel=cloud)
 2. [SAP Help Portal](https://help.sap.com/docs/cloud-integration-automation/user-guide/overview?locale=en-US)
-3. [Blogs](https://blogs.sap.com/2018/05/28/cloud-integration-automation-service-what-is-it/)
-7. [SAP BTP Global Account](https://emea.cockpit.btp.cloud.sap/cockpit?idp=tdct3ched2.accounts.ondemand.com#/globalaccount/afd3e49e-9bd3-41b8-ba49-ea7679f9e677/subaccount/576991fa-34c8-48a9-a661-6c278d2ed1db/subaccountoverview%20) tenant used during the hands-on session.
-8. [CLoud Integration Tenant](https://in266-gkd289xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/) tenant used during the hands-on session.
+3. [SAP BTP Global Account](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=clm-day-01.accounts.ondemand.com#/globalaccount/9d88d4f5-c80a-4986-8a56-dbf4b7b5a223) tenant used during the hands-on session.
 
 
 ## Code of Conduct
 Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## How to obtain support
-
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
 
 ## License
