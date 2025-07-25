@@ -13,7 +13,7 @@ Select the Plan for Integration tile in the Home screen of the CIAS application
   ![scenario selection](../images/monitoring_handson_2.png)
 
 
-3.	To  check the newly created subaccount, you can log in to the SAP BTP Global Account- CIAS EU Global Consumer . The email and password is the same as mentioned in the Access Information. 
+3.	To check the newly created subaccount, you can log in to the [SAP BTP Global Account- CIAS EU Global Consumer](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=clm-day-01.accounts.ondemand.com#/globalaccount/9d88d4f5-c80a-4986-8a56-dbf4b7b5a223). The email and password is the same as mentioned in the Access Information. 
 
   ![scenario selection](../images/monitoring_handson_3.png)
 
