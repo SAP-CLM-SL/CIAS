@@ -33,7 +33,7 @@ Select the Plan for Integration tile in the Home screen of the CIAS application
 ![scenario selection](../images/plan_handson_3.png)
 
 
-5. Click on the Select Systems button in the side panel
+5. Click on the **Select Systems** button in the side panel
    
 ![system selection](../images/plan_handson_4.png)
 
