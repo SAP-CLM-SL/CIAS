@@ -30,10 +30,12 @@ Select the Plan for Integration tile in the Home screen of the CIAS application
 
 4. Select the line item. It will open up the side panel with more information about the integration scenario.
 
+![scenario selection](../images/plan_handson_3.png)
 
 
 5. Click on the Select Systems button in the side panel
    
+![system selection](../images/plan_handson_4.png)
 
 
 6.	Click on the **SAP Business Technology Platform** system tile and search **CIAS EU Global Consumer**, and choose the tenant from the table.
@@ -46,7 +48,7 @@ Select the Plan for Integration tile in the Home screen of the CIAS application
 ![SCI](../images/plan_handson_6.png)
 
 
-1. Click the **Generate Workflow** button on the top right corner, and choose **Background Execution** option.
+8. Click the **Generate Workflow** button on the top right corner, and choose **Background Execution** option.
 
 ![S4HC](../images/plan_handson_7.png)
 
