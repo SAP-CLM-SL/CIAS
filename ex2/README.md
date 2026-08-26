@@ -1,5 +1,5 @@
 # Exercise 2 - Generation of Workflow
-In this exercise, you will __generate a workflow__ for the Integration scenario - __SAP Build Setup (CLM Day 2025)__.
+In this exercise, you will __generate a workflow__ for the Integration scenario - __CLM Day 2026 Part 1 - Build Services and Joule Agent__.
 
 ## Access the Cloud Integration Automation Service
 
@@ -8,90 +8,64 @@ In this exercise, you will __generate a workflow__ for the Integration scenario 
   ![subaccount](../images/subaccount.png)
 * Click on **Services > Instances and Subscriptions**
 * Click on the icon against Cloud Integration Automation service to launch the application
-* ![cias](../images/cias.png)
+  ![cias](../images/cias.png)
 
+## Plan Integration Scenarios
 
-## Plan for Integration
+1. On the CIAS home screen, select the **Plan Integration Scenarios** tile.
 
-Select the Plan for Integration tile in the Home screen of the CIAS application
+   ![scenario selection](../images/plan_handson_1.png)
 
-1. You have lauched the application for Cloud Integration Automation Service
+2. On the **Integration Solutions and Scenarios** page, search for **CLM** in the search box. The **CLM Day Event - Hands-On Enablement** solution appears with both 2026 scenarios listed.
 
+   ![scenario selection](../images/plan_handson_2.png)
 
-2. Select the __Plan for Integration__ tile in the home screen of the Cloud Integration Automation Service application.
-   
-![scenario selection](../images/plan_handson_1.png)
+3. Select **CLM Day 2026 Part 1 - Provision SAP Build services and create a custom Joule agent.** A panel opens on the right showing the scenario description and a **Scenario Options** dropdown.
 
+   ![scenario selection](../images/plan_handson_3.png)
 
-3. Search for **SAP Build Setup (CLM Day 2025)** integration scenario.
+4. In the **Scenario Options** dropdown, ensure **Provision Build Services and Create a Joule Agent** is selected, then click **Start**.
 
-![scenario selection](../images/plan_handson_2.png)
+   ![system selection](../images/plan_handson_4.png)
 
+5. In the **Select Scope** step, choose **Yes** or **No** for each service you want to provision. At minimum, select **Yes** for **SAP Build Work Zone** (needed for Part 2) and **SAP Joule** (needed for the agent). Then click **Next Step**.
 
-4. Select the line item. It will open up the side panel with more information about the integration scenario.
+   > **Note:** Each scope item is independent. Select only the services your instructor advises if you are short on time.
 
-![scenario selection](../images/plan_handson_3.png)
+   ![scope selection](../images/plan_handson_5.png)
 
+6. In the **Select Systems** step, verify the pre-filled system details:
+   - **SAP Business Technology Platform (1)**: Tenant should show **CIAS EU Global Consumer**. Use the toggle **(2)** to provide details manually if needed.
+   - **SAP BTP Identity Authentication Service (3)**: Tenant should show **https://clm-day-01.accounts.ondemand.com**. Use the toggle **(4)** to provide details manually if needed.
 
-5. Click on the **Select Systems** button in the side panel
-   
-![system selection](../images/plan_handson_4.png)
+   Click **Next Step**.
 
+   ![system details](../images/plan_handson_6.png)
 
-6.	Click on the **SAP Business Technology Platform** system tile and search **CIAS EU Global Consumer**, and choose the tenant from the table.
+7. If a **Systems Details** popup appears warning about different landscapes, review the details and click **Proceed**.
 
-![BTP](../images/plan_handson_5.png)
+   ![systems details popup](../images/plan_handson_7.png)
 
-  
-7.	Click on the **SAP BTP Identity Authentication Service** system tile and search **clm-day-01**, and choose the tenant from the below table.
+8. In the **Add Task Parameters** step, provide the following values and keep the rest as-is:
 
-![SCI](../images/plan_handson_6.png)
+   **Subaccount Display Name (1):** CLMDayXX
 
+   **Subaccount Subdomain (2):** clmday-XX
 
-8. Click the **Generate Workflow** button on the top right corner, and choose **Background Execution** option.
+   <span style="color:red">**Note**</span> - replace **XX** with your user number. Click **Next Step**.
 
-![S4HC](../images/plan_handson_7.png)
+   ![task parameters](../images/plan_handson_8.png)
 
-9.	Press the **Proceed** button in the popup. 
+9. In the **Review** step, check the disclaimer checkbox **(1)**, review the summary, and click **Finish**.
 
-![Generate](../images/plan_handson_8.png)
-
-10. In **Verify System Details** screen, the selected system details can be verified and then press **Next Step** button. 
-
-![Generate](../images/plan_handson_9.png)
-
-11. In the **Scope Selection** screen, the scope of the execution can be reviewed and then press **Next Step** button.
-
-![Generate](../images/plan_handson_10.png)
-
-12. In the **Add Task Parameters** screen provide the values only for the below parameters and keep rest of the parameter values as is-:
-
-**SAP Build Administrator** -: userXX@sapclm.org
-
-**Subaccount Region** -: Europe Frankfurt eu10
-
-**Subaccount Display Name** :  SAP CLM DAY USER XX 
-
-**Subaccount Subdomain Name** – sap-clm-day-user-xx
-
-
-<span style="color:red">**Note**</span> - replace **XX** in above parameter values with your user number 
-
-![Generate](../images/plan_handson_11.png)
-
-13. In this screen, press **Confirm** button to generate a workflow.
-    
-![Generate](../images/plan_handson_12.png)
+   ![review](../images/plan_handson_9.png)
 
 ## Result
 
-You’ve now _successfully_ **generated the workflow**. Now click on the link to navigate to **Scenario Monitoring application**.
+You've now _successfully_ **generated the workflow**. The success screen shows your **Scenario Instance Name** and an **Integration Overview** summary. Click **Monitor Integration Setup** to navigate to the Monitor Integration Scenarios application and track progress.
 
-![Generate](../images/plan_handson_13.png)
+![result](../images/plan_handson_10.png)
 
-
-
-
-In the next exercise, we will execute the workflow and complete the integration setup.
+In the next exercise, we will monitor the workflow execution and complete the integration setup.
 
 **Continue to - [Exercise 3 - Monitoring Configuration Setup](../ex3/README.md)**

@@ -1,76 +1,84 @@
-# Exercise 3 - Monitoring Configuration Setup
-In this exercise, we will **monitor** the progress of the automated setup and verify the automations.
+# Exercise 3 - Monitor and Complete the Setup
+In this exercise, you will **monitor** the automated provisioning tasks, verify the newly created subaccount, and then complete the manual Joule agent tasks in My Inbox.
 
-## Scenario Monitoring
+## Monitor Integration Scenarios
 
-Select the Plan for Integration tile in the Home screen of the CIAS application
+1. After generating the workflow in Exercise 2, you are taken to the **Monitor Integration Scenarios** application. Select your scenario instance in the left panel to view its task list. The **Tasks** table shows each task with its ID, type, applicable system, and current **Status**.
 
-1.	The real time status of the execution can be seen in this application. You can see that the task **Create SAP BTP Subaccount** is in status **Executing Automation**.
-   ![scenario selection](../images/monitoring_handson_1.png)
+   You can see the first automation task — **Create SAP BTP Subaccount** (A00005) — with status **Running automation**.
 
-2.	Once the task **Create SAP BTP Subaccount** is in **Completed status**, a new subaccount would have been created in the SAP BTP Global Account- CIAS EU Global Consumer that you had previously selected in the Planning screen.
-   
-  ![scenario selection](../images/monitoring_handson_2.png)
+   ![scenario monitoring](../images/monitoring_handson_1.png)
 
+2. Once **Create SAP BTP Subaccount** reaches **Completed** status, the next task becomes **Ready to be executed** and the automation continues automatically.
 
-3.	To check the newly created subaccount, you can log in to the [SAP BTP Global Account- CIAS EU Global Consumer](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=clm-day-01.accounts.ondemand.com#/globalaccount/9d88d4f5-c80a-4986-8a56-dbf4b7b5a223). The email and password is the same as mentioned in the Access Information. 
+   ![scenario monitoring](../images/monitoring_handson_2.png)
 
-  ![scenario selection](../images/monitoring_handson_3.png)
+3. To verify the newly created subaccount, log in to the [SAP BTP Global Account - CIAS EU Global Consumer](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=clm-day-01.accounts.ondemand.com#/globalaccount/9d88d4f5-c80a-4986-8a56-dbf4b7b5a223) using your assigned credentials.
 
+   ![BTP Sign In](../images/monitoring_handson_3.png)
 
-4.	You can see the newly created subaccount in the global account..
+4. In the BTP Cockpit, navigate to **Account Explorer**. You can see the newly created subaccount listed under **Subaccounts**.
 
-  ![scenario selection](../images/monitoring_handson_4.png)
+   ![BTP Global Account](../images/monitoring_handson_4.png)
 
+5. Back in the **Monitor Integration Scenarios** application, the automation tasks run sequentially. Track progress in the **Tasks** table. Once all automated tasks are complete, navigate to **My Inbox** by clicking the inbox icon in the left navigation panel.
 
-5.	In the **Scenario Monitoring** application, the following tasks will be executing sequentially. You can see the status in the Tasks table. Wait for the below listed tasks to be executed successfully.
+   ![My Inbox navigation](../images/monitoring_handson_5.png)
 
-   | Task ID      | Task Description                                              |
-   |-----------|---------------------------------------------------------------|
-   | A00005    | Create SAP BTP Subaccount                                     |
-   | A00006    | Enable Cloud Foundry Environment                              |
-   | A00007    | Create Space                                                  |
-   | A00008    | Establish Trust with IAS                                      |
-   | A00009    | Create Destination and XSUAA services                         |
-   | A00010    | Disable Default IDP                                           |
-   | A00011    | SAP Build Work Zone, standard edition Entitlement             |
-   | A00012    | Activate SAP Build Work Zone, standard edition                |
-   | A00013    | Assign Role Collection for SAP Build Work Zone, standard edition |
-   | A00014    | SAP Build Work Zone, advanced edition Entitlement             |
-   | A00015    | Activate SAP Build Work Zone, advanced edition                |
-   | A00016    | Assign Role Collection for SAP Build Work Zone, advanced edition |
-   | A00017    | Create Destination for SAP Build Work Zone Content            |
-   | A00018    | SAP Task Center Entitlement                                   |
-   | A00019    | Activate SAP Task Center                                      |
-   | A00020    | Assign Role Collection for SAP Task Center                    |
-   | A00021    | Create Destinations for SAP Task Center                       |
-   | A00022    | SAP Build Apps Entitlement                                    |
-   | A00023    | Activate SAP Build Apps                                       |
-   | A00024    | Assign Role Collection for Build Apps                         |
-   | A00025    | SAP Build Process Automation Entitlement                      |
-   | A00026    | Activate SAP Build Process Automation                         |
-   | A00027    | Assign Role Collection for SAP Build Process Automation       |
-   | A00028    | Create Destinations for SAP Business Process Automation       |
-   | A00029    | SAP Business Application Studio Entitlements                  |
-   | A00030    | Activate SAP Business Application Studio                      |
-   | A00031    | Assign Role Collection for SAP Business Application Studio    |
+6. In **My Inbox**, the following tasks will be executing sequentially. Wait for all of them to reach **Completed** status before proceeding.
 
+   | Task Description                                                          |
+   |---------------------------------------------------------------------------|
+   | Create SAP BTP Subaccount                                                 |
+   | Establish Trust with SAP Identity Authentication Service                  |
+   | Assign Subaccount Admin role to User                                      |
+   | Cloud Foundry Environment Entitlement                                     |
+   | Enable Cloud Foundry Environment                                          |
+   | Create Space                                                              |
+   | Create Destination and XSUAA services                                     |
+   | Disable Default Identity Provider                                         |
+   | SAP Build Work Zone, standard edition Entitlement                         |
+   | Activate SAP Build Work Zone, standard edition                            |
+   | Assign Role Collection for SAP Build Work Zone, standard edition          |
+   | Assign Entitlements for SAP Task Center                                   |
+   | Activate SAP Task Center                                                  |
+   | Assign Role Collection for SAP Task Center                                |
+   | Assign Entitlements for SAP Build Apps                                    |
+   | Subscribe to SAP Build Apps                                               |
+   | Assign Role Collection for SAP Build Apps                                 |
+   | Assign Entitlements for SAP Build Process Automation                      |
+   | Activate SAP Build Process Automation                                     |
+   | Assign Role Collection for SAP Build Process Automation                   |
+   | Create Destinations for SAP Business Process Automation                   |
+   | Assign Entitlements for SAP Business Application Studio                   |
+   | Subscribe to SAP Business Application Studio                              |
+   | Assign Role Collection for SAP Business Application Studio                |
+   | Assign Entitlements for Joule                                             |
+   | Activate SAP Joule                                                        |
+   | Set Up Joule and Joule Studio on SAP BTP                                  |
+   | Assign Role Collection for Joule                                          |
 
-6.	Once all the above listed tasks are in **Completed** status, the task **Create a Site** will be in **Yet to be executed** status. Since it is a manual task, you need to now navigate to My Inbox application by clicking  on the icon in the left side pane, to execute the task manually. 
+> **Note:** If you selected **SAP_JOULE_AGENT = No** during scope selection, no manual tasks will appear and the workflow completes automatically.
 
-![BTP](../images/monitoring_handson_5.png)
+## Create the Joule Agent
 
-  
-7.	In **My Inbox** app, the task **Create a Site** will be available . You need to now follow the steps provided in the Task Instructions. Once all the steps are done manually, you can click on **Task Completed** button to receive the next task.
+Once all automated tasks are complete, the **Create Maintenance Destination** task appears in **My Inbox**. The remaining tasks walk you through building the **Maintenance Fulfillment Validator** agent in Joule Studio — an agent that orchestrates five pre-built skills to check whether a maintenance order can be fulfilled based on current material stock levels.
 
+| # | Task | Type | What you do |
+|---|------|------|-------------|
+| 1 | Create Maintenance Destination | Automation | Verify the pre-filled parameters and run the automation to create the connection to the sample maintenance backend |
+| 2 | Enable AI Agent Builder Activation | Manual | Toggle on the AI Agent Builder in Joule Studio Control Tower |
+| 3 | Create a Private Environment | Manual | Create a private test environment and bind the maintenance destination to it |
+| 4 | Import Project with Skills | Manual | Upload the pre-packaged skills project (.mtar file) to the Joule Studio Lobby |
+| 5 | Create Maintenance Fulfillment Validator Agent | Manual | Build the agent — enter the name, description, expertise, instructions, and add the five maintenance skills |
+| 6 | Test in Private Environment | Manual | Send a prompt and inspect the Timeline to verify the agent returns a fulfillment answer |
+
+For each task, open it in **My Inbox** and follow the **Task Instructions** tab — it contains all the steps, screenshots, and deep links you need. Choose **Complete Task** when done to move to the next one.
 
 ## Result
-After you have completed all the tasks, You’ve now _successfully_ **Created a Firoi Lanuchpad Site** in **SAP Build Work Zone**.
 
-## Feedback 
+You have successfully provisioned the selected SAP Build services on SAP BTP and created a custom Joule agent that can validate maintenance order fulfillment.
 
-It would be helpful if you could provide your feedback. You can scan the following QR code to provide feedback
-
-![BTP](../images/feedback.png)
+> Want to know more about the data the agent queries? See [About the Sample Maintenance Backend](../info/README.md) for the data model and sample prompts.
 
 **Continue to - [Home Page](../README.md)**

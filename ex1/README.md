@@ -3,13 +3,15 @@
 
 In this exercise, you will get an overview of the capabilities of CIAS which will be helpful for the successful completion of the hands-on exercise.
 
-## Overiew
+## Overview
 
-The Cloud Integration Automation Service homepage consists of three tiles -:
+The Cloud Integration Automation Service homepage consists of three tiles:
 
-### 1. Plan for Integration
+### 1. Plan Integration Scenarios
 
-This section contains the integration scenarios that are onboarded into CIAS. You can choose based on the Cloud or Hybrid setup and generate a workflow. It has an integrated landscape discovery that prompts the customer to select the system that they own. In the case of a fully automated scenario, you can run the whole setup in the background mode as well. 
+**Choose and plan for an integration scenario**
+
+This section contains the integration scenarios that are onboarded into CIAS. You can choose based on the Cloud or Hybrid setup and generate a workflow. It has an integrated landscape discovery that prompts you to select the systems you own. In the case of a fully automated scenario, you can run the whole setup in the background as well.
 
 **Note: In the next exercise, we will take a deeper look into the functions of the Planning app.**
 
@@ -17,28 +19,36 @@ This section contains the integration scenarios that are onboarded into CIAS. Yo
 
 ### 2. My Inbox
 
-The Inbox feature in Cloud Integration Automation Service supports workflow execution by automatically delegating tasks based on user authorization and scope. Its integrated parameter management system minimizes errors and ensures seamless integration by pre-populating task parameters from preceding tasks. Furthermore, its automation capabilities, eliminate manual operations, thereby boosting efficiency and reducing potential human errors.
+**View and manage all the integration tasks assigned to you**
+
+The Inbox feature in Cloud Integration Automation Service supports workflow execution by automatically delegating tasks based on user authorization and scope. Its integrated parameter management system minimizes errors and ensures seamless integration by pre-populating task parameters from preceding tasks. Furthermore, its automation capabilities eliminate manual operations, thereby boosting efficiency and reducing potential human errors.
 
 ![inbox](../images/plan_overiew_2.png)
 
-The following are the different sections within the Inbox -
-1. **Task Instructions** - This tab displays the documentation for the current task. It also contains parameters and the ability to execute automation.
-2. **Task Overview** - This tab provides a hierarchical view of all the tasks and their documentation for the complete workflow. **Note:** This view is to be used only for reference. Current task instructions will be available in the **Task Instructions** tab only.
-3. **Comments** - This tab provides the ability to add comments. Comments can be used as a medium to communicate with other workflow users (for the current workflow).
-4. **System Access** - This tab provides information about the current system for which the task instructions are displayed in the **Task Instructions** tab.
-5. **Assigned To** - This tab provides workflow user information for the current task.
-6. **Support information** - This tab contains metadata information about the workflow.
-7. **Logs** - In the case of automation tasks, after triggering the automation, the logs can be seen in the logs tab. Individual automation logs can be visualized from the log button next to individual parameter sections. For aggregate logs, please click the logs button at the top right of the screen.
+The following tabs are available within the Inbox:
+
+1. **Task Instructions** - Displays the documentation for the current task, including configuration parameters and automation controls.
+2. **Overview** - Provides a hierarchical view of all the tasks and their documentation for the complete workflow. **Note:** This view is for reference only. Always use the **Task Instructions** tab to act on the current task.
+3. **Comments** - Allows you to add comments to communicate with other workflow users for the current workflow.
+4. **System Access** - Provides information about the system associated with the current task.
+5. **Assigned Users** - Shows workflow user information for the current task.
+6. **Support Information** - Contains metadata about the workflow.
+7. **Logs** - After triggering an automation, view execution logs here. Individual automation logs appear next to each parameter section; use the **Logs** button at the top right for aggregate logs.
 
 ![task overview](../images/plan_overiew_3.png)
 
-#### <ins>Task Execution in Inbox</ins>
+#### Task Execution in Inbox
 
-There are 2 kinds of workflow tasks that a user might encounter while executing a workflow in Inbox.
+There are 2 kinds of workflow tasks you may encounter while executing a workflow in Inbox.
 
 #### 1. Automation task
 
-Automation tasks are those that perform the configuration automatically based on the parameters (1) that are provided. The easiest way to identify an automation task is to look for the **Execute Task** (2) button at the footer of the Inbox. To execute an automation task, please provide the parameters (if not pre-filled) and then press the **Execute Task** button. This will trigger the automation and the configuration will be performed. The successful completion of the configuration will be indicated by the Success badge (3) near the parameter section. The attached manual documentation at the bottom serves as an alternative to performing the automation manually.  After successful completion of the automation (Success badge), click on the **Task Completed** (4) button to proceed to the next task.
+Automation tasks perform the configuration automatically based on the parameters **(1)** provided. You have two ways to run the automation:
+
+- **Start Automation (2a)** — triggers the automation interactively. The status badge **(3)** next to the parameter section updates as the automation runs. Once it completes, choose **Complete Task (4)** to move to the next task.
+- **Continue (2b)** — runs the automation in the background and automatically completes the task when done. No further action is needed.
+
+The **Manual Instructions** section below the parameters serves as an alternative if the automation cannot be used.
 
 **For the hands-on session, in case of an error, please reach out to colleagues for support.**
 
@@ -46,14 +56,16 @@ Automation tasks are those that perform the configuration automatically based on
 
 #### 2. Manual task
 
-Manual tasks are those that require manual setup of the configuration steps. The easiest way to identify an automation task is to look for the absence of the **Execute Task** button at the footer of the inbox. The manual tasks may or may not contain a **parameter** (1) section. To successfully complete a manual task, please perform the configuration steps manually. There will be **deep links** (2) embedded in the documentation itself. You can click on the link and follow the documentation to complete the steps. In case of mandatory parameters that are not pre-filled, kindly fill the same after completing the configuration manually. After completion of the configuration, click on the **Task Completed** (3) button to proceed to the next task.
+Manual tasks require you to perform the configuration steps yourself. They may contain a **parameter** section **(1)** — for example, a file to download — but there is no Start Automation button. The **Manual Instructions** section contains **deep links (2)** that open the relevant system or page directly. Follow the steps described, using those links to navigate. Once you have completed all the steps, choose **Complete Task (3)** to proceed to the next task.
 
 ![Manual task](../images/plan_overiew_5.png)
 
 
-### 3. Scenario Monitoring
+### 3. Monitor Integration Scenarios
 
-Scenario monitoring provides a comprehensive view of the current integration processes being executed within this tenant. It systematically catalogs each integration scenario, detailing the tasks undertaken and the progress achieved for each. This feature, part of CIAS (Cloud Integration Automation Service), is crucial for maintaining visibility and control over integration operations.
+**Track the progress for all the integration scenarios**
+
+Monitor Integration Scenarios provides a comprehensive view of all workflow instances running in this tenant. It shows each integration scenario, the tasks within it, and their current progress and status. Use this tile to track execution and verify that automated tasks have completed successfully.
 
 ![seo](../images/plan_overiew_6.png)
 

@@ -1,26 +1,32 @@
-# Simplify SAP Build Integration Setup using Cloud Integration Automation Service
+# CLM Day 2026 - Provision SAP Build Services and Create a Joule Agent
 
-# Overview
+## Overview
 
-This session introduces participants to the **Cloud Integration Automation Service**, where you will gain hands-on experience implementing an automated scenario Provisioning **SAP Build on SAP BTP**. After completing the setup, you can create and design a SAP Fiori Launchpad site using SAP Build Work Zone, standard edition.
+This session introduces participants to the **Cloud Integration Automation Service**, where you will gain hands-on experience implementing automated scenarios on **SAP BTP**. The hands-on is split into two parts:
+
+- **Part 1** – Provision SAP Build services and create a custom **Joule agent** that helps maintenance planners validate whether a maintenance order can be fulfilled based on current material stock.
+- **Part 2** – Build a **SAP Fiori launchpad site** using SAP Build Work Zone, standard edition.
 
 **<ins>Scenario Description</ins>**
 
 SAP Build is a comprehensive solution for business application development and automation. Designed for both low-code and pro-code users, SAP Build combines generative AI with prebuilt components to accelerate development and streamline collaboration across teams. Create cloud-ready extensions that enhance your cloud ERP and SAP and non-SAP application landscape while breaking down silos between business and IT.
 
+SAP Joule is the AI copilot embedded across the SAP portfolio. In this hands-on you use **Joule Studio** to create a custom agent that orchestrates pre-built maintenance skills and reasons with an LLM to answer a practical maintenance question.
+
 ![overview](images/overview.png)
 
 **<ins>Configuration of the scenario with Cloud Integration Automation Service</ins>**
 
-In this hands-on session, you will provision the following services on SAP Business Technology Platform. Setup the connectivity with the SAP Cloud Identity service and create the destination template for the external systems.
+In this hands-on session, you will provision the following services on SAP Business Technology Platform, set up integration with the SAP Cloud Identity Service, and build a custom Joule agent.
 
 ## Services Provisioned in SAP BTP
 
-- SAP Build Work Zone (Standard Edition)
+- SAP Build Work Zone, standard edition
 - SAP Build Process Automation
 - SAP Build Apps
 - SAP Task Center
 - SAP Business Application Studio
+- SAP Joule
 
 ![cias_overview](images/overview2.png)
 
@@ -40,7 +46,7 @@ You can log in to the above application/tenants with credentials assigned to you
     userXX@sapclm.org
     ```
 
-4. __Password:__ Use the following password
+2. __Password:__ Use the following password
 
     ```
     The password will be provided to you during the hands-on session
@@ -52,13 +58,13 @@ You can log in to the above application/tenants with credentials assigned to you
 
 ## Exercises
 
-Run the following steps to complete the exercise
-
 - [Exercise 1 - Overview of Cloud Integration Automation Service](ex1/README.md)
-- [Exercise 2 - Generation of the workflow](ex2/README.md)
-- [Exercise 3 - Monitoring Configuration Setup](ex3/README.md)
+- [Exercise 2 - Generate the Workflow](ex2/README.md)
+- [Exercise 3 - Monitor and Complete the Setup](ex3/README.md)
 
-Once you complete the above exercises, you will be able to provision and configure services on BTP using Cloud Integration Automation Service and would be able create a fiori launchpad site in SAP Build Workzone
+Once you complete the above exercises, you will have provisioned and configured services on BTP using Cloud Integration Automation Service and created a custom Joule agent in Joule Studio.
+
+> **Further Reading:** Curious about the data behind the agent? See [About the Sample Maintenance Backend](info/README.md) for the data model, entity descriptions, and sample prompts to try.
 
 
 ## Resources
