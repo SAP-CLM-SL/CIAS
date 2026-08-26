@@ -1,23 +1,25 @@
-# CLM Day 2026 - Provision SAP Build Services and Create a Joule Agent
+# CLM Day 2026 - Automate SAP Build Setup and Innovate with Your First Custom AI Agent Using Cloud Integration Automation Service
 
 ## Overview
 
 This session introduces participants to the **Cloud Integration Automation Service**, where you will gain hands-on experience implementing automated scenarios on **SAP BTP**. The hands-on is split into two parts:
 
-- **Part 1** – Provision SAP Build services and create a custom **Joule agent** that helps maintenance planners validate whether a maintenance order can be fulfilled based on current material stock.
-- **Part 2** – Build a **SAP Fiori launchpad site** using SAP Build Work Zone, standard edition.
+- **Part 1** – **CLM Day 2026 Part 1 - Provision SAP Build services and create a custom Joule agent**: provision SAP Build services and create a custom **Joule agent** that helps maintenance planners validate whether a maintenance order can be fulfilled based on current material stock.
+- **Part 2** *(Optional — if time permits)* – **CLM Day 2026 Part 2 - Set up a SAP Fiori launchpad site in SAP Build Work Zone and publish apps to it**: build a **SAP Fiori launchpad site** using SAP Build Work Zone, standard edition.
 
 **<ins>Scenario Description</ins>**
 
-SAP Build is a comprehensive solution for business application development and automation. Designed for both low-code and pro-code users, SAP Build combines generative AI with prebuilt components to accelerate development and streamline collaboration across teams. Create cloud-ready extensions that enhance your cloud ERP and SAP and non-SAP application landscape while breaking down silos between business and IT.
+Cloud Integration Automation Service simplifies and automates the technical setup of SAP Build — a comprehensive solution for business application development and automation. Rather than configuring each service manually, Cloud Integration Automation Service handles the end-to-end provisioning on SAP BTP, enabling teams to focus on building value instead of managing infrastructure.
 
-SAP Joule is the AI copilot embedded across the SAP portfolio. In this hands-on you use **Joule Studio** to create a custom agent that orchestrates pre-built maintenance skills and reasons with an LLM to answer a practical maintenance question.
+As part of this setup, Cloud Integration Automation Service provisions a set of core SAP Build services on SAP BTP. It also provisions SAP Build Process Automation and SAP Joule to enable **Joule Studio**, where you can create and deploy custom AI agents. In this hands-on, you will build a custom agent as a practical example of what becomes possible after the automated setup is complete.
+
+Cloud Integration Automation Service also provisions SAP Build Work Zone, standard edition, which can be used to create a SAP Fiori launchpad site.
 
 ![overview](images/overview.png)
 
 **<ins>Configuration of the scenario with Cloud Integration Automation Service</ins>**
 
-In this hands-on session, you will provision the following services on SAP Business Technology Platform, set up integration with the SAP Cloud Identity Service, and build a custom Joule agent.
+In this hands-on session, Cloud Integration Automation Service provisions the following services on SAP Business Technology Platform and sets up integration with SAP Cloud Identity Service. As a final step, you will use **Joule Studio** to build a custom agent and explore one of the outcomes of the automated setup.
 
 ## Services Provisioned in SAP BTP
 
@@ -63,6 +65,8 @@ You can log in to the above application/tenants with credentials assigned to you
 - [Exercise 3 - Monitor and Complete the Setup](ex3/README.md)
 
 Once you complete the above exercises, you will have provisioned and configured services on BTP using Cloud Integration Automation Service and created a custom Joule agent in Joule Studio.
+
+> **What's next?** You can run **Part 2** of this hands-on to create a SAP Fiori launchpad site using SAP Build Work Zone, standard edition.
 
 > **Further Reading:** Curious about the data behind the agent? See [About the Sample Maintenance Backend](info/README.md) for the data model, entity descriptions, and sample prompts to try.
 

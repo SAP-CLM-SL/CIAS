@@ -5,19 +5,20 @@
   <text x="45" y="205" text-anchor="middle" font-size="13" fill="#333">IAS</text>
 
   <!-- BTP Global Account outer box -->
-  <rect x="110" y="20" width="400" height="360" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <rect x="110" y="20" width="340" height="360" rx="6" fill="#fafafa" stroke="#aaa" stroke-width="1.5" stroke-dasharray="6,3"/>
   <text x="300" y="40" text-anchor="middle" font-size="12" fill="#555">BTP Global Account</text>
 
   <!-- CIAS subaccount box (top inner) -->
   <rect x="130" y="50" width="200" height="80" rx="4" fill="#f5f5f5" stroke="#999" stroke-width="1.5"/>
   <text x="230" y="68" text-anchor="middle" font-size="11" fill="#555">BTP Subaccount</text>
   <!-- CIAS service box -->
-  <rect x="155" y="76" width="100" height="40" rx="4" fill="white" stroke="#4caf50" stroke-width="2"/>
-  <text x="205" y="101" text-anchor="middle" font-size="13" fill="#333">CIAS</text>
+  <rect x="150" y="76" width="160" height="40" rx="4" fill="white" stroke="#4caf50" stroke-width="2"/>
+  <text x="235" y="93" text-anchor="middle" font-size="10" fill="#333">Cloud Integration</text>
+  <text x="235" y="108" text-anchor="middle" font-size="10" fill="#333">Automation Service</text>
 
   <!-- Services subaccount box (main) -->
-  <rect x="130" y="150" width="350" height="210" rx="4" fill="#eef3fb" stroke="#7a9cc7" stroke-width="2"/>
-  <text x="300" y="170" text-anchor="middle" font-size="11" fill="#555">BTP Subaccount</text>
+  <rect x="130" y="150" width="300" height="210" rx="4" fill="#eef3fb" stroke="#7a9cc7" stroke-width="2"/>
+  <text x="280" y="170" text-anchor="middle" font-size="11" fill="#555">BTP Subaccount</text>
 
   <!-- Row 1: Task Center | Build Apps -->
   <rect x="150" y="180" width="120" height="44" rx="4" fill="white" stroke="#aaa" stroke-width="1.2"/>
@@ -27,22 +28,21 @@
   <text x="350" y="207" text-anchor="middle" font-size="12" fill="#333">Build Apps</text>
 
   <!-- Row 2: Build Work Zone Standard | Business Application Studio -->
-  <rect x="150" y="234" width="120" height="44" rx="4" fill="white" stroke="#aaa" stroke-width="1.2"/>
-  <text x="210" y="252" text-anchor="middle" font-size="11" fill="#333">Build Work Zone</text>
-  <text x="210" y="268" text-anchor="middle" font-size="11" fill="#333">Standard</text>
+  <rect x="150" y="234" width="120" height="44" rx="4" fill="white" stroke="#0a6ed1" stroke-width="2"/>
+  <text x="210" y="252" text-anchor="middle" font-size="11" fill="#0a6ed1" font-weight="bold">Build Work Zone</text>
+  <text x="210" y="268" text-anchor="middle" font-size="11" fill="#0a6ed1" font-weight="bold">Standard</text>
 
   <rect x="290" y="234" width="120" height="44" rx="4" fill="white" stroke="#aaa" stroke-width="1.2"/>
   <text x="350" y="252" text-anchor="middle" font-size="11" fill="#333">Business Application</text>
   <text x="350" y="268" text-anchor="middle" font-size="11" fill="#333">Studio</text>
 
   <!-- Row 3: Build Process Automation | SAP Joule (new) -->
-  <rect x="150" y="288" width="120" height="44" rx="4" fill="white" stroke="#aaa" stroke-width="1.2"/>
-  <text x="210" y="306" text-anchor="middle" font-size="11" fill="#333">Build Process</text>
-  <text x="210" y="322" text-anchor="middle" font-size="11" fill="#333">Automation</text>
+  <rect x="150" y="288" width="120" height="44" rx="4" fill="white" stroke="#0a6ed1" stroke-width="2"/>
+  <text x="210" y="306" text-anchor="middle" font-size="11" fill="#0a6ed1" font-weight="bold">Build Process</text>
+  <text x="210" y="322" text-anchor="middle" font-size="11" fill="#0a6ed1" font-weight="bold">Automation</text>
 
   <rect x="290" y="288" width="120" height="44" rx="4" fill="white" stroke="#0a6ed1" stroke-width="2"/>
-  <text x="350" y="311" text-anchor="middle" font-size="12" fill="#0a6ed1" font-weight="bold">SAP Joule</text>
-  <text x="350" y="327" text-anchor="middle" font-size="10" fill="#0a6ed1">(Joule Studio)</text>
+  <text x="350" y="315" text-anchor="middle" font-size="12" fill="#0a6ed1" font-weight="bold">SAP Joule</text>
 
   <!-- Connection lines from IAS -->
   <!-- IAS to CIAS subaccount -->
@@ -54,14 +54,14 @@
   <line x1="85" y1="230" x2="130" y2="250" stroke="#888" stroke-width="1.2"/>
 
   <!-- Arrow from services subaccount to External API -->
-  <line x1="480" y1="255" x2="550" y2="255" stroke="#888" stroke-width="1.2" stroke-dasharray="4,3"/>
-  <circle cx="555" cy="255" r="6" fill="none" stroke="#888" stroke-width="1.5"/>
-  <text x="558" y="251" font-size="10" fill="#555">R</text>
-  <polygon points="567,255 561,251 561,259" fill="#888"/>
+  <line x1="430" y1="255" x2="505" y2="255" stroke="#888" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <circle cx="509" cy="255" r="6" fill="none" stroke="#888" stroke-width="1.5"/>
+  <text x="511" y="251" font-size="10" fill="#555">R</text>
+  <polygon points="522,255 516,251 516,259" fill="#888"/>
 
   <!-- External API box -->
-  <rect x="572" y="235" width="38" height="40" rx="3" fill="#f0f0f0" stroke="#999" stroke-width="1.2"/>
-  <text x="591" y="251" text-anchor="middle" font-size="9" fill="#333">External</text>
-  <text x="591" y="265" text-anchor="middle" font-size="9" fill="#333">API</text>
+  <rect x="522" y="235" width="38" height="40" rx="3" fill="#f0f0f0" stroke="#999" stroke-width="1.2"/>
+  <text x="541" y="251" text-anchor="middle" font-size="9" fill="#333">External</text>
+  <text x="541" y="265" text-anchor="middle" font-size="9" fill="#333">API</text>
 
 </svg>

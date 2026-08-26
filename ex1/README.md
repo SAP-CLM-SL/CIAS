@@ -1,7 +1,7 @@
 
 # Exercise 1: Getting Started
 
-In this exercise, you will get an overview of the capabilities of CIAS which will be helpful for the successful completion of the hands-on exercise.
+In this exercise, you will get an overview of the capabilities of Cloud Integration Automation Service which will be helpful for the successful completion of the hands-on exercise.
 
 ## Overview
 
@@ -11,7 +11,7 @@ The Cloud Integration Automation Service homepage consists of three tiles:
 
 **Choose and plan for an integration scenario**
 
-This section contains the integration scenarios that are onboarded into CIAS. You can choose based on the Cloud or Hybrid setup and generate a workflow. It has an integrated landscape discovery that prompts you to select the systems you own. In the case of a fully automated scenario, you can run the whole setup in the background as well.
+This section contains the integration scenarios that are onboarded into Cloud Integration Automation Service. You can choose based on the Cloud or Hybrid setup and generate a workflow. It has an integrated landscape discovery that prompts you to select the systems you own. In the case of a fully automated scenario, you can run the whole setup in the background as well.
 
 **Note: In the next exercise, we will take a deeper look into the functions of the Planning app.**
 

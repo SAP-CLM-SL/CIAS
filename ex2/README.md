@@ -3,7 +3,7 @@ In this exercise, you will __generate a workflow__ for the Integration scenario 
 
 ## Access the Cloud Integration Automation Service
 
-* Click on the [BTP Global Account](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=clm-day-01.accounts.ondemand.com#/globalaccount/9d88d4f5-c80a-4986-8a56-dbf4b7b5a223)
+* Click on the <a href="https://emea.cockpit.btp.cloud.sap/cockpit/?idp=clm-day-01.accounts.ondemand.com#/globalaccount/9d88d4f5-c80a-4986-8a56-dbf4b7b5a223" target="_blank">BTP Global Account</a>
 * Click on the Subaccount
   ![subaccount](../images/subaccount.png)
 * Click on **Services > Instances and Subscriptions**
@@ -12,7 +12,7 @@ In this exercise, you will __generate a workflow__ for the Integration scenario 
 
 ## Plan Integration Scenarios
 
-1. On the CIAS home screen, select the **Plan Integration Scenarios** tile.
+1. On the Cloud Integration Automation Service home screen, select the **Plan Integration Scenarios** tile.
 
    ![scenario selection](../images/plan_handson_1.png)
 
@@ -28,17 +28,15 @@ In this exercise, you will __generate a workflow__ for the Integration scenario 
 
    ![system selection](../images/plan_handson_4.png)
 
-5. In the **Select Scope** step, choose **Yes** or **No** for each service you want to provision. At minimum, select **Yes** for **SAP Build Work Zone** (needed for Part 2) and **SAP Joule** (needed for the agent). Then click **Next Step**.
-
-   > **Note:** Each scope item is independent. Select only the services your instructor advises if you are short on time.
+5. In the **Select Scope** step, three services are pre-selected and required to complete this hands-on: **SAP Build Process Automation** and **SAP Joule** (needed for Part 1), and **SAP Build Work Zone, standard edition** (needed for Part 2). Do not deselect these. The remaining services are optional — you may select additional ones if you would like to explore further. Click **Next Step** to continue.
 
    ![scope selection](../images/plan_handson_5.png)
 
-6. In the **Select Systems** step, verify the pre-filled system details:
-   - **SAP Business Technology Platform (1)**: Tenant should show **CIAS EU Global Consumer**. Use the toggle **(2)** to provide details manually if needed.
-   - **SAP BTP Identity Authentication Service (3)**: Tenant should show **https://clm-day-01.accounts.ondemand.com**. Use the toggle **(4)** to provide details manually if needed.
+6. In the **Select Systems** step, select the systems to be used for provisioning:
+   - Click the value help icon **(1)** next to **SAP Business Technology Platform**, search for **CIAS EU**, and select **CIAS EU Global Consumer** **(2)**.
+   - Click the value help icon **(3)** next to **SAP BTP Identity Authentication Service**, search for **clm-day-01**, and select **https://clm-day-01.accounts.ondemand.com** **(4)**.
 
-   Click **Next Step**.
+   Once both systems are selected, click **Next Step**.
 
    ![system details](../images/plan_handson_6.png)
 
@@ -48,9 +46,9 @@ In this exercise, you will __generate a workflow__ for the Integration scenario 
 
 8. In the **Add Task Parameters** step, provide the following values and keep the rest as-is:
 
-   **Subaccount Display Name (1):** CLMDayXX
+   **Subaccount Display Name (1):** JouleAgentXX
 
-   **Subaccount Subdomain (2):** clmday-XX
+   **Subaccount Subdomain (2):** joule-agent-XX
 
    <span style="color:red">**Note**</span> - replace **XX** with your user number. Click **Next Step**.
 
