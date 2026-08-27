@@ -1,5 +1,5 @@
 
-# Exercise 1: Getting Started
+# Exercise 1: Overview of Cloud Integration Automation Service
 
 In this exercise, you will get an overview of the capabilities of Cloud Integration Automation Service which will be helpful for the successful completion of the hands-on exercise.
 
@@ -11,9 +11,9 @@ The Cloud Integration Automation Service homepage consists of three tiles:
 
 **Choose and plan for an integration scenario**
 
-This section contains the integration scenarios that are onboarded into Cloud Integration Automation Service. You can choose based on the Cloud or Hybrid setup and generate a workflow. It has an integrated landscape discovery that prompts you to select the systems you own. In the case of a fully automated scenario, you can run the whole setup in the background as well.
+This section contains the integration scenarios that are onboarded into Cloud Integration Automation Service. You can choose based on the Cloud or Hybrid setup and generate a workflow. It has an integrated landscape discovery that prompts you to select the systems you own. In the case of a fully automated scenario, the whole setup runs in background mode.
 
-**Note: In the next exercise, we will take a deeper look into the functions of the Planning app.**
+>**Note:** In the next exercise, we will take a deeper look into the functions of the Planning app.
 
 ![plan](../images/plan_overiew_1.png)
 
@@ -45,10 +45,10 @@ There are 2 kinds of workflow tasks you may encounter while executing a workflow
 
 Automation tasks perform the configuration automatically based on the parameters **(1)** provided. You have two ways to run the automation:
 
-- **Start Automation (2a)** — triggers the automation interactively. The status badge **(3)** next to the parameter section updates as the automation runs. Once it completes, choose **Complete Task (4)** to move to the next task.
+- **Start Automation (2a)** — triggers the automation interactively. The status badge **(3)** next to the parameter section updates as the automation runs. Once it completes successfully, choose **Complete Task (4)** to move to the next task.
 - **Continue (2b)** — runs the automation in the background and automatically completes the task when done. No further action is needed.
 
-The **Manual Instructions** section below the parameters serves as an alternative if the automation cannot be used.
+The **Manual Instructions** section below the parameters can be used to manually perform the tasks that the automation executes.
 
 **For the hands-on session, in case of an error, please reach out to colleagues for support.**
 
@@ -71,4 +71,4 @@ Monitor Integration Scenarios provides a comprehensive view of all workflow inst
 
 Let us now proceed to the next exercise, where we will generate the workflow.
 
-**Continue to - [Exercise 2 - Generate a workflow](../ex2/README.md)**
+**Continue to - [Exercise 2 - Generate the Workflow](../ex2/README.md)**

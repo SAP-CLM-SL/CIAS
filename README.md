@@ -4,8 +4,8 @@
 
 This session introduces participants to the **Cloud Integration Automation Service**, where you will gain hands-on experience implementing automated scenarios on **SAP BTP**. The hands-on is split into two parts:
 
-- **Part 1** – **CLM Day 2026 Part 1 - Provision SAP Build services and create a custom Joule agent**: provision SAP Build services and create a custom **Joule agent** that helps maintenance planners validate whether a maintenance order can be fulfilled based on current material stock.
-- **Part 2** *(Optional — if time permits)* – **CLM Day 2026 Part 2 - Set up a SAP Fiori launchpad site in SAP Build Work Zone and publish apps to it**: build a **SAP Fiori launchpad site** using SAP Build Work Zone, standard edition.
+- **Part 1 - Provision SAP Build services and create a custom Joule agent**: A solution to provision SAP Build services and create a custom **Joule agent** that helps maintenance planners validate whether a maintenance order can be fulfilled based on current material stock.
+- **Part 2 *(Optional — if time permits)* – Set up a SAP Fiori launchpad site in SAP Build Work Zone and publish apps to it**: A solution to build a **SAP Fiori launchpad site** using SAP Build Work Zone, standard edition.
 
 **<ins>Scenario Description</ins>**
 
@@ -42,7 +42,7 @@ In this hands-on session, Cloud Integration Automation Service provisions the fo
 
 You can log in to the above application/tenants with credentials assigned to you. 
 
-1. __Username:__ Use the following email ID (`XX will be assigned to you during the hands-on exercise`)
+1. __Username:__ Use the following email ID (`XX will be the user number assigned to you during the hands-on exercise`)
 
     ```
     userXX@sapclm.org
@@ -54,7 +54,7 @@ You can log in to the above application/tenants with credentials assigned to you
     The password will be provided to you during the hands-on session
     ```
 
-**NOTE:** While logging in to any of the above systems/tenants (**OPTIONAL**), select the **clm-day-01.accounts.ondemand.com** IDP (if prompted).
+> **Note:** While logging in to any of the above systems/tenants (**OPTIONAL**), select the **clm-day-01.accounts.ondemand.com** IDP (if prompted).
 
 ![Teched IDP](images/idp_login.png)
 

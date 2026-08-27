@@ -17,7 +17,7 @@ In this exercise, you will **monitor** the automated provisioning tasks, verify 
 
    ![BTP Sign In](../images/monitoring_handson_3.png)
 
-4. In the BTP Cockpit, navigate to **Account Explorer**. You can see the newly created subaccount listed under **Subaccounts**.
+4. In the BTP Cockpit, navigate to **Account Explorer**. Search for your user number and you will see the newly created subaccount listed under **Subaccounts**.
 
    ![BTP Global Account](../images/monitoring_handson_4.png)
 
