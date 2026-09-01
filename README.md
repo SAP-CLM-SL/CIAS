@@ -40,7 +40,7 @@ In this hands-on session, Cloud Integration Automation Service provisions the fo
 
 ## Access Information
 
-You can log in to the above application/tenants with credentials assigned to you. 
+Use the following credentials to log in to the systems listed above (Cloud Integration Automation Service, SAP BTP Global Account, and Cloud Identity Authentication Service).
 
 1. __Username:__ Use the following email ID (`XX will be the user number assigned to you during the hands-on exercise`)
 
@@ -54,7 +54,7 @@ You can log in to the above application/tenants with credentials assigned to you
     The password will be provided to you during the hands-on session
     ```
 
-> **Note:** While logging in to any of the above systems/tenants (**OPTIONAL**), select the **clm-day-01.accounts.ondemand.com** IDP (if prompted).
+> **Note:** When prompted to select an IDP, choose **clm-day-01.accounts.ondemand.com**.
 
 ![Teched IDP](images/idp_login.png)
 
