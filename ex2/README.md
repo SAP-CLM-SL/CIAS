@@ -1,5 +1,5 @@
 # Exercise 2 - Generate the Workflow
-In this exercise, you will __generate a workflow__ for the Integration scenario - __CLM Day 2026 Part 1 - Provision SAP Build services and create a custom Joule agent.__.
+In this exercise, you will __generate a workflow__ for the Integration scenario - __Provision SAP Build services and create a custom Joule agent__.
 
 ## Access the Cloud Integration Automation Service
 
@@ -18,11 +18,11 @@ In this exercise, you will __generate a workflow__ for the Integration scenario 
 
    ![scenario selection](../images/plan_handson_1.png)
 
-2. On the **Integration Solutions and Scenarios** page, search for **CLM** in the search box. The **CLM Day Event - Hands-On Enablement** solution appears with both 2026 scenarios listed.
+2. On the **Integration Solutions and Scenarios** page, search for **CLM** in the search box. The **CLM Day Event - Hands-On Enablement** solution appears with the 2026 scenario listed.
 
    ![scenario selection](../images/plan_handson_2.png)
 
-3. Select **CLM Day 2026 Part 1 - Provision SAP Build services and create a custom Joule agent.** A panel opens on the right showing the scenario description.
+3. Select **CLM Day 2026 - Provision Build services and create a custom Joule agent.** A panel opens on the right showing the scenario description.
 
    ![scenario selection](../images/plan_handson_3.png)
 
@@ -30,7 +30,7 @@ In this exercise, you will __generate a workflow__ for the Integration scenario 
 
    ![system selection](../images/plan_handson_4.png)
 
-5. In the **Select Scope** step, three services are pre-selected and required to complete this hands-on: **SAP Build Process Automation** and **SAP Joule** (needed for Part 1), and **SAP Build Work Zone, standard edition** (needed for Part 2). Do not deselect these. The remaining services are optional — you may select additional ones if you would like to explore further. Click **Next Step** to continue.
+5. In the **Select Scope** step, two services are pre-selected and required to complete this hands-on: **SAP Build Process Automation** and **SAP Joule**. Do not deselect these. The remaining services are optional — you may select additional ones if you would like to explore further. Click **Next Step** to continue.
 
    ![scope selection](../images/plan_handson_5.png)
 

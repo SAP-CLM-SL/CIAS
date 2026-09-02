@@ -2,10 +2,7 @@
 
 ## Overview
 
-This session introduces participants to the **Cloud Integration Automation Service**, where you will gain hands-on experience implementing automated scenarios on **SAP BTP**. The hands-on is split into two parts:
-
-- **Part 1 - Provision SAP Build services and create a custom Joule agent**: A solution to provision SAP Build services and create a custom **Joule agent** that helps maintenance planners validate whether a maintenance order can be fulfilled based on current material stock.
-- **Part 2 *(Optional — if time permits)* – Set up a SAP Fiori launchpad site in SAP Build Work Zone and publish apps to it**: A solution to build a **SAP Fiori launchpad site** using SAP Build Work Zone, standard edition.
+This session introduces participants to the **Cloud Integration Automation Service**, where you will gain hands-on experience implementing automated scenarios on **SAP BTP**. In this hands-on, you will provision SAP Build services and create a custom **Joule agent** that helps maintenance planners validate whether a maintenance order can be fulfilled based on current material stock.
 
 **<ins>Scenario Description</ins>**
 
@@ -20,6 +17,13 @@ Cloud Integration Automation Service also provisions SAP Build Work Zone, standa
 **<ins>Configuration of the scenario with Cloud Integration Automation Service</ins>**
 
 In this hands-on session, Cloud Integration Automation Service provisions the following services on SAP Business Technology Platform and sets up integration with SAP Cloud Identity Service. As a final step, you will use **Joule Studio** to build a custom agent and explore one of the outcomes of the automated setup.
+
+## What is Joule Studio?
+
+Joule Studio, classic edition, is a capability in SAP Build that enables organizations to design and deploy custom Joule skills and AI agents, extending Joule's intelligence to meet the unique needs of the business. These skills help automate workflows, deliver intelligent recommendations, and streamline processes across both SAP and non-SAP systems.
+
+![joule_studio_overview](images/joule_studio_overview.png)
+
 
 ## Services Provisioned in SAP BTP
 
@@ -65,8 +69,6 @@ Use the following credentials to log in to the systems listed above (Cloud Integ
 - [Exercise 3 - Monitor and Complete the Setup](ex3/README.md)
 
 Once you complete the above exercises, you will have provisioned and configured services on BTP using Cloud Integration Automation Service and created a custom Joule agent in Joule Studio.
-
-> **What's next?** You can run **Part 2** of this hands-on to create a SAP Fiori launchpad site using SAP Build Work Zone, standard edition.
 
 > **Further Reading:** Curious about the data behind the agent? See [About the Sample Maintenance Backend](info/README.md) for the data model, entity descriptions, and sample prompts to try.
 
