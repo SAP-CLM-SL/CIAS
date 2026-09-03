@@ -1,6 +1,26 @@
 # Exercise 2 - Generate the Workflow
 In this exercise, you will __generate a workflow__ for the Integration scenario - __Provision SAP Build services and create a custom Joule agent__.
 
+## Access Information
+
+Use the following credentials to log in to SAP BTP.
+
+1. __Username:__ Use the following email ID (`XX will be the user number assigned to you during the hands-on exercise`)
+
+    ```
+    userXX@sapclm.org
+    ```
+
+2. __Password:__ Use the following password
+
+    ```
+    The password will be provided to you during the hands-on session
+    ```
+
+> **Note:** When prompted to select an IDP, choose **clm-day-01.accounts.ondemand.com**.
+
+![Teched IDP](../images/idp_login.png)
+
 ## Access the Cloud Integration Automation Service
 
 * Click on the <a href="https://emea.cockpit.btp.cloud.sap/cockpit/?idp=clm-day-01.accounts.ondemand.com#/globalaccount/9d88d4f5-c80a-4986-8a56-dbf4b7b5a223" target="_blank">BTP Global Account</a>

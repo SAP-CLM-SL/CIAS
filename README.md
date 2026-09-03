@@ -8,21 +8,13 @@ This session introduces participants to the **Cloud Integration Automation Servi
 
 Cloud Integration Automation Service simplifies and automates the technical setup of SAP Build — a comprehensive solution for business application development and automation. Rather than configuring each service manually, Cloud Integration Automation Service handles the end-to-end provisioning on SAP BTP, enabling teams to focus on building value instead of managing infrastructure.
 
-As part of this setup, Cloud Integration Automation Service provisions a set of core SAP Build services on SAP BTP. It also provisions SAP Build Process Automation and SAP Joule to enable **Joule Studio**, where you can create and deploy custom AI agents. In this hands-on, you will build a custom agent as a practical example of what becomes possible after the automated setup is complete.
-
-Cloud Integration Automation Service also provisions SAP Build Work Zone, standard edition, which can be used to create a SAP Fiori launchpad site.
+As part of this setup, Cloud Integration Automation Service provisions a set of core SAP Build services on SAP BTP. It provisions SAP Build Process Automation and SAP Joule to enable **Joule Studio**, where you can create and deploy custom AI agents. In this hands-on, you will build a custom agent as a practical example of what becomes possible after the automated setup is complete.
 
 ![overview](images/overview.png)
 
 **<ins>Configuration of the scenario with Cloud Integration Automation Service</ins>**
 
 In this hands-on session, Cloud Integration Automation Service provisions the following services on SAP Business Technology Platform and sets up integration with SAP Cloud Identity Service. As a final step, you will use **Joule Studio** to build a custom agent and explore one of the outcomes of the automated setup.
-
-## What is Joule Studio?
-
-Joule Studio, classic edition, is a capability in SAP Build that enables organizations to design and deploy custom Joule skills and AI agents, extending Joule's intelligence to meet the unique needs of the business. These skills help automate workflows, deliver intelligent recommendations, and streamline processes across both SAP and non-SAP systems.
-
-![joule_studio_overview](images/joule_studio_overview.png)
 
 
 ## Services Provisioned in SAP BTP
@@ -41,26 +33,6 @@ Joule Studio, classic edition, is a capability in SAP Build that enables organiz
 - [x] __Cloud Integration Automation Service__: BTP Service used to set up the technical configuration of the integration scenario involving the below systems.
 - [x] __SAP BTP Global Account__
 - [x] __Cloud Identity Authentication Service__
-
-## Access Information
-
-Use the following credentials to log in to the systems listed above (Cloud Integration Automation Service, SAP BTP Global Account, and Cloud Identity Authentication Service).
-
-1. __Username:__ Use the following email ID (`XX will be the user number assigned to you during the hands-on exercise`)
-
-    ```
-    userXX@sapclm.org
-    ```
-
-2. __Password:__ Use the following password
-
-    ```
-    The password will be provided to you during the hands-on session
-    ```
-
-> **Note:** When prompted to select an IDP, choose **clm-day-01.accounts.ondemand.com**.
-
-![Teched IDP](images/idp_login.png)
 
 ## Exercises
 
