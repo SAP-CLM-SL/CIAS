@@ -36,13 +36,14 @@ In this hands-on session, Cloud Integration Automation Service provisions the fo
 
 ## Exercises
 
-- [Exercise 1 - Overview of Cloud Integration Automation Service](ex1/README.md)
-- [Exercise 2 - Generate the Workflow](ex2/README.md)
-- [Exercise 3 - Monitor and Complete the Setup](ex3/README.md)
+- [Exercise 1 - Generate the Workflow](ex1/README.md)
+- [Exercise 2 - Monitor and Complete the Setup](ex2/README.md)
 
 Once you complete the above exercises, you will have provisioned and configured services on BTP using Cloud Integration Automation Service and created a custom Joule agent in Joule Studio.
 
-> **Further Reading:** Curious about the data behind the agent? See [About the Sample Maintenance Backend](info/README.md) for the data model, entity descriptions, and sample prompts to try.
+> **About CIAS:** New to Cloud Integration Automation Service? Read [About CIAS and Its Components](info/README_1.md) for an overview of the service, its capabilities, and the key components you will use in this hands-on.
+
+> **Further Reading:** Curious about the data behind the agent? See [About the Sample Maintenance Backend](info/README_2.md) for the data model, entity descriptions, and sample prompts to try.
 
 
 ## Resources

@@ -1,74 +1,97 @@
+# Exercise 1 - Generate the Workflow
+In this exercise, you will __generate a workflow__ for the Integration scenario - __Provision SAP Build services and create a custom Joule agent__.
 
-# Exercise 1: Overview of Cloud Integration Automation Service
+## Access Information
 
-In this exercise, you will get an overview of the capabilities of Cloud Integration Automation Service which will be helpful for the successful completion of the hands-on exercise.
+Use the following credentials to log in to SAP BTP.
 
-## Overview
+1. __Username:__ Use the following email ID (`XX will be the user number assigned to you during the hands-on exercise`)
 
-The Cloud Integration Automation Service homepage consists of three tiles:
+    ```
+    userXX@sapclm.org
+    ```
 
-### 1. Plan Integration Scenarios
+2. __Password:__ Use the following password
 
-**Choose and plan for an integration scenario**
+    ```
+    The password will be provided to you during the hands-on session
+    ```
 
-This section contains the integration scenarios that are onboarded into Cloud Integration Automation Service. You can choose based on the Cloud or Hybrid setup and generate a workflow. It has an integrated landscape discovery that prompts you to select the systems you own. In the case of a fully automated scenario, the whole setup runs in background mode.
+> **Note:** When prompted to select an IDP, choose **clm-day-01.accounts.ondemand.com**.
 
->**Note:** In the next exercise, we will take a deeper look into the functions of the Planning app.
+![Teched IDP](../images/idp_login.png)
 
-![plan](../images/plan_overiew_1.png)
+## Access the Cloud Integration Automation Service
 
-### 2. My Inbox
+* Click on the <a href="https://emea.cockpit.btp.cloud.sap/cockpit/?idp=clm-day-01.accounts.ondemand.com#/globalaccount/9d88d4f5-c80a-4986-8a56-dbf4b7b5a223" target="_blank">BTP Global Account</a>
+* On the search bar, enter XX and click on the **Search** icon. You will see your subaccount listed in the search results as **CIAS CLM XX**. Click on the subaccount name to open it.
+> **Note**: Replace **XX** with your user number.
 
-**View and manage all the integration tasks assigned to you**
+![subaccount](../images/subaccount.png)
+* Click on **Services > Instances and Subscriptions**
+* Click on the icon against Cloud Integration Automation service to launch the application
+  ![cias](../images/cias.png)
 
-The Inbox feature in Cloud Integration Automation Service supports workflow execution by automatically delegating tasks based on user authorization and scope. Its integrated parameter management system minimizes errors and ensures seamless integration by pre-populating task parameters from preceding tasks. Furthermore, its automation capabilities eliminate manual operations, thereby boosting efficiency and reducing potential human errors.
+## Plan Integration Scenarios
 
-![inbox](../images/plan_overiew_2.png)
+1. On the Cloud Integration Automation Service Overview screen, select the **Plan Integration Scenarios** tile.
 
-The following tabs are available within the Inbox:
+   ![scenario selection](../images/plan_handson_1.png)
 
-1. **Task Instructions** - Displays the documentation for the current task, including configuration parameters and automation controls.
-2. **Overview** - Provides a hierarchical view of all the tasks and their documentation for the complete workflow. **Note:** This view is for reference only. Always use the **Task Instructions** tab to act on the current task.
-3. **Comments** - Allows you to add comments to communicate with other workflow users for the current workflow.
-4. **System Access** - Provides information about the system associated with the current task.
-5. **Assigned Users** - Shows workflow user information for the current task.
-6. **Support Information** - Contains metadata about the workflow.
-7. **Logs** - After triggering an automation, view execution logs here. Individual automation logs appear next to each parameter section; use the **Logs** button at the top right for aggregate logs.
+2. On the **Integration Solutions and Scenarios** page, search for **CLM** in the search box. The **CLM Day Event - Hands-On Enablement** solution appears with the 2026 scenario listed.
 
-![task overview](../images/plan_overiew_3.png)
+   ![scenario selection](../images/plan_handson_2.png)
 
-#### Task Execution in Inbox
+3. Select **CLM Day 2026 - Provision Build services and create a custom Joule agent.** A panel opens on the right showing the scenario description.
 
-There are 2 kinds of workflow tasks you may encounter while executing a workflow in Inbox.
+   ![scenario selection](../images/plan_handson_3.png)
 
-#### 1. Automation task
+4. Read the scenario description and then click **Start**.
 
-Automation tasks perform the configuration automatically based on the parameters **(1)** provided. You have two ways to run the automation:
+   ![system selection](../images/plan_handson_4.png)
 
-- **Start Automation (2a)** — triggers the automation interactively. The status badge **(3)** next to the parameter section updates as the automation runs. Once it completes successfully, choose **Complete Task (4)** to move to the next task.
-- **Continue (2b)** — runs the automation in the background and automatically completes the task when done. No further action is needed.
+5. In the **Select Scope** step, two services are pre-selected and required to complete this hands-on: **SAP Build Process Automation** and **SAP Joule**. Do not deselect these. The remaining services are optional — you may select additional ones if you would like to explore further. Click **Next Step** to continue.
 
-The **Manual Instructions** section below the parameters can be used to manually perform the tasks that the automation executes.
+   ![scope selection](../images/plan_handson_5.png)
 
-**For the hands-on session, in case of an error, please reach out to colleagues for support.**
+6. In the **Select Systems** step, select the systems to be used for provisioning:
+   - Click the value help icon next to the **SAP Business Technology Platform** Tenant field.
+     ![system details](../images/plan_handson_6_a.png)
+   - A **System Selection** dialog opens. Search for **CIAS EU**, then click on the row — it will be highlighted and shown as **Selected System: CIAS EU Global Consumer** at the bottom. Click **OK**.
+     ![system details](../images/plan_handson_6_b.png)
+   - Click the value help icon next to the **SAP BTP Identity Authentication Service** Tenant field.
+     ![system details](../images/plan_handson_6_c.png)
+   - A **System Selection** dialog opens. Search for **clm-day-01**, then click on the row — it will be highlighted and shown as **Selected System: https://clm-day-01.accounts.ondemand.com** at the bottom. Click **OK**.
+     ![system details](../images/plan_handson_6_d.png)
+   Once both systems are selected, click **Next Step**.
 
-![Automation task](../images/plan_overiew_4.png)
+   ![system details](../images/plan_handson_6.png)
 
-#### 2. Manual task
+7. A **Systems Details** popup will appear warning about different landscapes, review the details and click **Proceed**.
 
-Manual tasks require you to perform the configuration steps yourself. They may contain a **parameter** section **(1)** — for example, a file to download — but there is no Start Automation button. The **Manual Instructions** section contains **deep links (2)** that open the relevant system or page directly. Follow the steps described, using those links to navigate. Once you have completed all the steps, choose **Complete Task (3)** to proceed to the next task.
+   ![systems details popup](../images/plan_handson_7.png)
 
-![Manual task](../images/plan_overiew_5.png)
+8. In the **Add Task Parameters** step, provide the following values and keep the rest as-is:
 
+   **Subaccount Display Name (1):** JouleAgentXX
 
-### 3. Monitor Integration Scenarios
+   **Subaccount Subdomain (2):** joule-agent-XX
 
-**Track the progress for all the integration scenarios**
+   Click **Next Step**.
+> **Note**: Replace **XX** with your user number. Keep the region as **Europe (Frankfurt) - eu10** and leave the Reuse Existing Subaccount GUID parameter blank.
 
-Monitor Integration Scenarios provides a comprehensive view of all workflow instances running in this tenant. It shows each integration scenario, the tasks within it, and their current progress and status. Use this tile to track execution and verify that automated tasks have completed successfully.
+   ![task parameters](../images/plan_handson_8.png)
 
-![seo](../images/plan_overiew_6.png)
+9. In the **Review** step, check the disclaimer checkbox **(1)**, review the summary, and click **Finish**.
 
-Let us now proceed to the next exercise, where we will generate the workflow.
+   ![review](../images/plan_handson_9.png)
 
-**Continue to - [Exercise 2 - Generate the Workflow](../ex2/README.md)**
+## Result
+
+You've now _successfully_ **generated the workflow**. The success screen shows your **Scenario Instance Name** and an **Integration Overview** summary. Click **Monitor Integration Setup** to navigate to the Monitor Integration Scenarios application and track progress.
+
+![result](../images/plan_handson_10.png)
+
+In the next exercise, we will monitor the workflow execution and complete the integration setup.
+
+**Continue to - [Exercise 2 - Monitor and Complete the Setup](../ex2/README.md)**

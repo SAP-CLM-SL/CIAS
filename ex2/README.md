@@ -1,97 +1,93 @@
-# Exercise 2 - Generate the Workflow
-In this exercise, you will __generate a workflow__ for the Integration scenario - __Provision SAP Build services and create a custom Joule agent__.
+# Exercise 2 - Monitor and Complete the Setup
+In this exercise, you will **monitor** the automated provisioning tasks, verify the newly created subaccount, and then complete the manual Joule agent tasks in My Inbox.
 
-## Access Information
+## Monitor Integration Scenarios
 
-Use the following credentials to log in to SAP BTP.
+1. After generating the workflow in Exercise 2, you are taken to the **Monitor Integration Scenarios** application. Select your scenario instance in the left panel to view its task list. The **Tasks** table shows each task with its ID, type, applicable system, and current **Status**.
 
-1. __Username:__ Use the following email ID (`XX will be the user number assigned to you during the hands-on exercise`)
+   Here, you can see the automation task — **Create SAP BTP Subaccount** (A00005) — with status **Running automation**.
 
-    ```
-    userXX@sapclm.org
-    ```
+   ![scenario monitoring](../images/monitoring_handson_1.png)
 
-2. __Password:__ Use the following password
+2. Once **Create SAP BTP Subaccount** reaches **Completed** status, the next task becomes **Ready to be executed** and the automation continues automatically.
 
-    ```
-    The password will be provided to you during the hands-on session
-    ```
+   ![scenario monitoring](../images/monitoring_handson_2.png)
 
-> **Note:** When prompted to select an IDP, choose **clm-day-01.accounts.ondemand.com**.
+3. To verify the newly created subaccount, log in to the [SAP BTP Global Account - CIAS EU Global Consumer](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=clm-day-01.accounts.ondemand.com#/globalaccount/9d88d4f5-c80a-4986-8a56-dbf4b7b5a223) using your assigned credentials.
 
-![Teched IDP](../images/idp_login.png)
+   ![BTP Sign In](../images/monitoring_handson_3.png)
 
-## Access the Cloud Integration Automation Service
+4. In the BTP Cockpit, navigate to **Account Explorer**. Search for your user number and you will see the newly created subaccount listed under **Subaccounts**.
 
-* Click on the <a href="https://emea.cockpit.btp.cloud.sap/cockpit/?idp=clm-day-01.accounts.ondemand.com#/globalaccount/9d88d4f5-c80a-4986-8a56-dbf4b7b5a223" target="_blank">BTP Global Account</a>
-* On the search bar, enter XX and click on the **Search** icon. You will see your subaccount listed in the search results as **CIAS CLM XX**. Click on the subaccount name to open it.
-> **Note**: Replace **XX** with your user number.
+   ![BTP Global Account](../images/monitoring_handson_4.png)
 
-![subaccount](../images/subaccount.png)
-* Click on **Services > Instances and Subscriptions**
-* Click on the icon against Cloud Integration Automation service to launch the application
-  ![cias](../images/cias.png)
+5. Back in the **Monitor Integration Scenarios** application, the following automation tasks run sequentially.
 
-## Plan Integration Scenarios
+> **Note:** Tasks marked with *Yes* in the **Optional?** column are rendered based on your scope selection. *Yes* = optional.
 
-1. On the Cloud Integration Automation Service Overview screen, select the **Plan Integration Scenarios** tile.
+| # | Task | Optional? |
+|---|------|-----------|
+| 1 | Initialise Users | |
+| 2 | Create SAP BTP Subaccount | |
+| 3 | Establish Trust with IAS | |
+| 4 | Assign Subaccount Admin role to User | |
+| 5 | Cloud Foundry Environment Entitlement | |
+| 6 | Enable Cloud Foundry Environment | |
+| 7 | Create Space | |
+| 8 | Create Destination and XSUAA services | |
+| 9 | Disable Default IDP | |
+| 10 | SAP Build Work Zone, standard edition Entitlement | |
+| 11 | Activate SAP Build Work Zone, standard edition | |
+| 12 | Assign Role Collection for SAP Build Work Zone, standard edition | |
+| 13 | SAP Task Center Entitlement | *Yes* |
+| 14 | Activate SAP Task Center | *Yes* |
+| 15 | Assign Role Collection for SAP Task Center | *Yes* |
+| 16 | SAP Build Apps Entitlement | *Yes* |
+| 17 | Activate SAP Build Apps | *Yes* |
+| 18 | Assign Role Collection for Build Apps | *Yes* |
+| 19 | SAP Build Process Automation Entitlement | |
+| 20 | Activate SAP Build Process Automation | |
+| 21 | Assign Role Collection for SAP Build Process Automation | |
+| 22 | Create Destinations for SAP Business Process Automation | |
+| 23 | SAP Business Application Studio Entitlements | *Yes* |
+| 24 | Activate SAP Business Application Studio | *Yes* |
+| 25 | Assign Role Collection for SAP Business Application Studio | *Yes* |
+| 26 | SAP Joule Entitlement | |
+| 27 | Activate Joule | |
+| 28 | Assign Role Collection for Joule Studio | |
+| 29 | Create Maintenance Destination | |
 
-   ![scenario selection](../images/plan_handson_1.png)
+Track progress in the **Tasks** table. Once all automated tasks are complete, navigate to **My Inbox** by clicking the inbox icon in the left navigation panel.
 
-2. On the **Integration Solutions and Scenarios** page, search for **CLM** in the search box. The **CLM Day Event - Hands-On Enablement** solution appears with the 2026 scenario listed.
+![My Inbox navigation](../images/monitoring_handson_5.png)
 
-   ![scenario selection](../images/plan_handson_2.png)
+## Create the Joule Agent
 
-3. Select **CLM Day 2026 - Provision Build services and create a custom Joule agent.** A panel opens on the right showing the scenario description.
+Once all automated tasks are complete, the following manual tasks will appear in **My Inbox**.
 
-   ![scenario selection](../images/plan_handson_3.png)
+| # | Task | What you do |
+|---|------|-------------|
+| 1 | Manual Configuration to Activate Joule Studio | Set up the formation to connect SAP Build Process Automation and SAP Joule to enable Joule Studio |
+| 2 | Enable AI Agent Builder Activation | Toggle on the AI Agent Builder in the Joule Studio Control Tower |
+| 3 | Create a Private Environment | Create a private test environment and bind the maintenance destination to it |
+| 4 | Import Project with Skills | Upload the pre-packaged skills project (.mtar file) to the Joule Studio Lobby |
+| 5 | Create Maintenance Fulfillment Validator Agent | Build the agent — enter the name, description, expertise, instructions, and add the five maintenance skills |
+| 6 | Test in Private Environment | Send a prompt and inspect the Timeline to verify the agent returns a fulfillment answer |
 
-4. Read the scenario description and then click **Start**.
-
-   ![system selection](../images/plan_handson_4.png)
-
-5. In the **Select Scope** step, two services are pre-selected and required to complete this hands-on: **SAP Build Process Automation** and **SAP Joule**. Do not deselect these. The remaining services are optional — you may select additional ones if you would like to explore further. Click **Next Step** to continue.
-
-   ![scope selection](../images/plan_handson_5.png)
-
-6. In the **Select Systems** step, select the systems to be used for provisioning:
-   - Click the value help icon next to the **SAP Business Technology Platform** Tenant field.
-     ![system details](../images/plan_handson_6_a.png)
-   - A **System Selection** dialog opens. Search for **CIAS EU**, then click on the row — it will be highlighted and shown as **Selected System: CIAS EU Global Consumer** at the bottom. Click **OK**.
-     ![system details](../images/plan_handson_6_b.png)
-   - Click the value help icon next to the **SAP BTP Identity Authentication Service** Tenant field.
-     ![system details](../images/plan_handson_6_c.png)
-   - A **System Selection** dialog opens. Search for **clm-day-01**, then click on the row — it will be highlighted and shown as **Selected System: https://clm-day-01.accounts.ondemand.com** at the bottom. Click **OK**.
-     ![system details](../images/plan_handson_6_d.png)
-   Once both systems are selected, click **Next Step**.
-
-   ![system details](../images/plan_handson_6.png)
-
-7. A **Systems Details** popup will appear warning about different landscapes, review the details and click **Proceed**.
-
-   ![systems details popup](../images/plan_handson_7.png)
-
-8. In the **Add Task Parameters** step, provide the following values and keep the rest as-is:
-
-   **Subaccount Display Name (1):** JouleAgentXX
-
-   **Subaccount Subdomain (2):** joule-agent-XX
-
-   Click **Next Step**.
-> **Note**: Replace **XX** with your user number. Keep the region as **Europe (Frankfurt) - eu10** and leave the Reuse Existing Subaccount GUID parameter blank.
-
-   ![task parameters](../images/plan_handson_8.png)
-
-9. In the **Review** step, check the disclaimer checkbox **(1)**, review the summary, and click **Finish**.
-
-   ![review](../images/plan_handson_9.png)
+For each task, open it in **My Inbox** and follow the **Task Instructions** tab — it contains all the steps, screenshots, and deep links you need. Choose **Complete Task** when done to move to the next one.
 
 ## Result
 
-You've now _successfully_ **generated the workflow**. The success screen shows your **Scenario Instance Name** and an **Integration Overview** summary. Click **Monitor Integration Setup** to navigate to the Monitor Integration Scenarios application and track progress.
+You have successfully provisioned the selected SAP Build services on SAP BTP and created a custom Joule agent that can validate maintenance order fulfillment.
 
-![result](../images/plan_handson_10.png)
+> Want to know more about the data and the agent queries? See [About the Sample Maintenance Backend](../info/README_2.md) for the data model and sample prompts.
 
-In the next exercise, we will monitor the workflow execution and complete the integration setup.
+---
 
-**Continue to - [Exercise 3 - Monitor and Complete the Setup](../ex3/README.md)**
+## Feedback
+
+Hope you enjoyed the session! We would love to hear your feedback.
+
+![Feedback QR](../images/feedback.png)
+
+**Continue to - [Home Page](../README.md)**
