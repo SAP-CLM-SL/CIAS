@@ -1,11 +1,11 @@
 
 # About Cloud Integration Automation Service
 
-Cloud Integration Automation Service simplifies and automates the technical setup of integration scenarios on SAP BTP. Rather than manually configuring each service, CIAS handles end-to-end provisioning — allowing teams to focus on building value instead of managing infrastructure.
+Cloud Integration Automation Service simplifies and automates the technical setup of integration scenarios on SAP BTP. Rather than manually configuring each service, Cloud Integration Automation Service handles end-to-end provisioning — allowing teams to focus on building value instead of managing infrastructure.
 
 ---
 
-## The CIAS Homepage
+## The Overview Page
 
 When you open Cloud Integration Automation Service, you are presented with three tiles, each representing a core capability of the service.
 
@@ -15,7 +15,7 @@ When you open Cloud Integration Automation Service, you are presented with three
 
 **Choose and plan an integration scenario**
 
-This section lists all integration scenarios available in CIAS. You can filter by Cloud or Hybrid setup and generate a workflow for the scenario you need. CIAS includes integrated landscape discovery, which guides you through selecting the systems in your landscape. For fully automated scenarios, the entire setup runs in the background with no manual intervention required.
+This section lists all integration scenarios available in Cloud Integration Automation Service. You can filter by Cloud or Hybrid setup and generate a workflow for the scenario you need. Cloud Integration Automation Service includes integrated landscape discovery, which guides you through selecting the systems in your landscape. For fully automated scenarios, the entire setup runs in the background with no manual intervention required.
 
 ![plan](../images/plan_overiew_1.png)
 
@@ -25,7 +25,7 @@ This section lists all integration scenarios available in CIAS. You can filter b
 
 **View and manage all integration tasks assigned to you**
 
-My Inbox is where workflow execution happens. CIAS automatically delegates tasks to the right users based on their authorizations. An integrated parameter management system pre-populates task parameters from preceding tasks, reducing errors and ensuring consistent configuration across the workflow.
+My Inbox is where workflow execution happens. Cloud Integration Automation Service automatically delegates tasks to the right users based on their authorizations. An integrated parameter management system pre-populates task parameters from preceding tasks, reducing errors and ensuring consistent configuration across the workflow.
 
 ![inbox](../images/plan_overiew_2.png)
 
@@ -45,7 +45,7 @@ Each task in the Inbox contains the following tabs:
 
 #### Types of Tasks
 
-There are two kinds of tasks you will encounter in a CIAS workflow:
+There are two kinds of tasks you will encounter in a Cloud Integration Automation Service workflow:
 
 **Automation Task**
 

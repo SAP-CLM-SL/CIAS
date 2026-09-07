@@ -1,0 +1,6 @@
+.DS_Store
+images/.DS_Store
+.idea/
+*.pptx
+*.pyc
+__pycache__/
