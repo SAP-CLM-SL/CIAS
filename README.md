@@ -26,8 +26,6 @@ In this hands-on session, Cloud Integration Automation Service provisions the fo
 - SAP Business Application Studio
 - SAP Joule
 
-![cias_overview](images/overview2.png)
-
 ## Required Systems & Services
 
 - [x] __Cloud Integration Automation Service__: BTP Service used to set up the technical configuration of the integration scenario involving the below systems.
